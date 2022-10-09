@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">lesson 3</string>
+    <string name="false_button">false</string>
+    <string name="true_button">true</string>
+    <string name="next_button">Next</string>
+    <string name="some_textview">Some TextView</string>
+    <string name="question_1">2+2 = 5</string>
+    <string name="question_2">2+2 = 4</string>
+    <string name="question_3">21/3 = 8</string>
+    <string name="question_4">5! = 120</string>
+    <string name="question_5">2^5 = 32</string>
+    <string name="question_6">4^2 = 18</string>
+    <string name="correct_toast">True</string>
+    <string name="incorrect_toast">Wrong</string>
+    <string name="prev_button">previous</string>
+    <string name="warning_text">Are you sure want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/true_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="56dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/true_button"
+        app:layout_constraintBottom_toTopOf="@+id/prev_button"
+        app:layout_constraintEnd_toStartOf="@+id/false_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question_text" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="171dp"
+        android:text="@string/next_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prev_button"
+        app:layout_constraintTop_toBottomOf="@+id/false_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="62dp"
+        android:text="@string/question_1"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/true_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/false_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#C50909"
+        android:text="@string/false_button"
+        app:layout_constraintBottom_toTopOf="@+id/cheat_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/true_button"
+        app:layout_constraintTop_toBottomOf="@+id/question_text" />
+
+    <Button
+        android:id="@+id/prev_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="143dp"
+        android:text="@string/prev_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/true_button" />
+
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="129dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="@string/cheat_button"
+        android:textColor="#070707"
+        app:layout_constraintBottom_toTopOf="@+id/prev_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/true_button"
+        app:layout_constraintTop_toBottomOf="@+id/false_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
